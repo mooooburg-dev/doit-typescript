@@ -1,7 +1,0 @@
-export function makePerson(name: String, age: Number) {
-  return { name: name, age: age };
-}
-
-export function testMakePerson() {
-  console.log(makePerson("Jane", 22), makePerson("Jack", 33));
-}
